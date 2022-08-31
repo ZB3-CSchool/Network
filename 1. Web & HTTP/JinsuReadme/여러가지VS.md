@@ -15,7 +15,7 @@
 ## HTTP VS HTTPS
 
 ### HTTP의 구조
-![img_26.png](img_26.png)
+![img_26.png](image/img_26.png)
 
 Method, Path, Version, Body등으로 구성한다.
 평문으로 데이터를 전송하므로, 제 3자가 정보를 조회할 가능성이 생겼다.
@@ -37,7 +37,7 @@ Method, Path, Version, Body등으로 구성한다.
 6. 클라이언트와 서버는 동일한 세션키를 공유하므로 데이터를 전달할 때 세션키로 암호화/복호화를 진행함 <br>
 => 세션키는 주고받는 데이터를 암호화하기 위한 대칭키 
 
-![img_25.png](img_25.png)
+![img_25.png](image/img_25.png)
 
 ## HTTP VS HTTPS
 
@@ -98,7 +98,7 @@ RSA 키 교환 알고리즘 순서
 
 ### 대칭키
 
-![img_27.png](img_27.png)
+![img_27.png](image/img_27.png)
 
 - 장점 : 암호화방식에 속도가 빠르다. 대용량 Data 암호화에 적합하다.
 - 단점 : 키를 교환해야 하는 문제, 탈취 관리 걱정, 사람이 증가할수록 키관리가 어려워짐, 확장성 떨어짐
@@ -109,7 +109,7 @@ Session Key, Secret Key, Shared Key, 대칭키, 단용키라고도 함
 
 ### 비대칭키 
 
-![img_28.png](img_28.png)
+![img_28.png](image/img_28.png)
 
 - 단점 : 속도가 느림
 - 장점 : 키분배 필요 X, 기밀성/인증/부인방지 기능 제공

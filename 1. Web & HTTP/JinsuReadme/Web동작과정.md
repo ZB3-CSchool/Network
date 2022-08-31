@@ -42,7 +42,7 @@
 - Browser를 통해 접근할 수 있는 응용프로그램
 - HTTP에서 동작되는 프로그램
 
-![img_8.png](img_8.png)
+![img_8.png](image/img_8.png)
 
 웹 동작 순서
 
@@ -64,7 +64,7 @@
 
 
 +@ DNS ?
-![img_9.png](img_9.png)
+![img_9.png](image/img_9.png)
 
 사람이 읽을 수 있는 도메인 이름을 IP 주소로 변환하는 시스템. => DNS<br>
 
@@ -77,7 +77,7 @@ DNS 구성 요소
 
 +@ 브라우저 랜더링 과정
 
-![img_10.png](img_10.png)
+![img_10.png](image/img_10.png)
 
 랜더링이란,<br>
 HTML,CSS ,JS등 개발자가 작성한 문서가 브라우저에서 출력되는 과정을 말한다.<br>
@@ -106,22 +106,22 @@ HTML 마크업 내에 직접 선언하거나, <br>
 HEAD 태그에 외부 CSS파일을 참조하거나 STYLE 태그를 정의할 수 있다.<br>
 작성된 스타일을 브라우저가 이해하고 처리할 수 있는 형식으로 변환과정을 거쳐야한다.
 
-![img_11.png](img_11.png)
+![img_11.png](image/img_11.png)
 
 DOM트리 생성과 동일 과정을 진행한다.
 
 
-![img_12.png](img_12.png)
+![img_12.png](image/img_12.png)
 
 3. 랜더링 트리의 완성
 
-![img_13.png](img_13.png)
+![img_13.png](image/img_13.png)
 
 페이지 구성에 필요한 노드들만 포함한다.
 
 4. 레이아웃 단계 
 각 요소의 정확한 위치와 크기를 정확하게 캡처하는 BOX 모델이 출력된다.
-![img_14.png](img_14.png)
+![img_14.png](image/img_14.png)
 
 5. 페인팅 단계
 

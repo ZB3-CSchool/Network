@@ -20,7 +20,7 @@
 2. 서버는 서비스 요청이 들어오면, 서비스를 제공
 (HTTP RESPONSE MESSAGE)
 
-![img_2.png](img_2.png)
+![img_2.png](image/img_2.png)
 
 웹의 3대 요소
 
@@ -28,7 +28,7 @@
 2. HTTP   HTML과 같은 하이퍼미디어 문서를 전송하기위한 애플리케이션 레이어 프로토콜이다.
 3. URL  인터넷에서 웹 페이지, 이미지, 비디오 등 리소스의 위치를 가리키는 문자열입니다.
 
-![img_3.png](img_3.png)
+![img_3.png](image/img_3.png)
 
 
 ## 웹의 구성요소
@@ -41,7 +41,7 @@
 보안 분야에서는 주로 보안상의 이유로 직접 통신할 수 없는 두 점 사이에서 통신을 할 경우 <br>
 그 상이에 있어서 중계기로서 대리로 통신을 수행하는 기능을 가리켜 '프록시', 그 중계 기능을 하는 것을 프록시 서버라고 부릅니다.
 
-![img_4.png](img_4.png)
+![img_4.png](image/img_4.png)
 
 ### 프록시 서버
 
@@ -57,13 +57,13 @@ Forward proxy
 
 직접 요청이 아닌 프록시 서버를 거치는 방식 
 
-![img_5.png](img_5.png)
+![img_5.png](image/img_5.png)
 
 Reverse Proxy 
 
 서버에서 클라이언트에 직접 데이터를 전달하지 않고 
 프록시 서버를 거치는 방식 
-![img_6.png](img_6.png)
+![img_6.png](image/img_6.png)
 
 
 ### 2. 캐시(Web Cache)
@@ -95,7 +95,7 @@ Reverse Proxy
 
 ### 3. 게이트웨이
 
-![img_7.png](img_7.png)
+![img_7.png](image/img_7.png)
 
 컴퓨터 네트워크에서 게이트웨이 란?<br>
 네트워크에서 다른 네트워크로 이동하기 위해 거쳐야하는 지점이다.

@@ -35,7 +35,7 @@ urn:scheme 을 사용하는 URI를 위한 이름 이다.
 URI 와 URL의 차이
  
 
-![img_17.png](img_17.png)
+![img_17.png](image/img_17.png)
 
 EX) http://opentutorials.org:3000/main?id=HTML&page=12Visit
 
@@ -46,9 +46,9 @@ URL은 자원의 위치를 나타내 주는 것이고 URI는 자원의 식별자
 
 ?id=HTML&page=12 이 부분은 위치를 나타내는 것이 아니라 <br>
 id값이 HTML이고 page가 12인 것을 나타내주는 식별하는 부분이기 때문이다.
-![img_15.png](img_15.png)
+![img_15.png](image/img_15.png)
 
-![img_16.png](img_16.png)
+![img_16.png](image/img_16.png)
 
 
 ## HOST

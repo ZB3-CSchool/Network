@@ -38,7 +38,7 @@ HTTP 프로토콜은 일반적으로 TCP/IP 통신 위에서 동작하며 기본
 - Method: GET, HEAD, POST
 - Connection 특성: 응답 직후 종료
 
-![img_18.png](img_18.png)
+![img_18.png](image/img_18.png)
 
 
 
@@ -51,12 +51,12 @@ HTTP 프로토콜은 일반적으로 TCP/IP 통신 위에서 동작하며 기본
 - Connection 특성: long-lived
 - HTTP1.1은 여러 Request-Response에 대해 동일한 연결을 재사용할 수 있다.
 
-![img_19.png](img_19.png)
+![img_19.png](image/img_19.png)
 
 - HTTP 1.0: TCP Connection은 HTTP 요청마다 3-way Handshake와 TearDown을 반복한다.
 - HTTP 1.1: 하나의 TCP Connection이 열려있으면 (Established 상태), 그 연결을 통해 여러 Request에 대한 Response를 받을 수 있다.
 
-![img_21.png](img_21.png)
+![img_21.png](image/img_21.png)
 
 - HTTP 1.1 Keep-Alive Pipelining: Pipelining을 사용할 때, client는 여러 request를 response의 응답을 기다리지 않고 보낼 수 있다.
 - HTTP 1.1 Keep-Alive Multiple Connections: 클라이언트는 많은 양의 objects를 검색하는 성능을 높이기 위해 TCP 다중 연결을 할 수 있다.
@@ -70,7 +70,7 @@ HOLB(Head Of Line Blocking) - 특정 응답 지연
 
 ## HTTP 2.0
 
-![img_22.png](img_22.png)
+![img_22.png](image/img_22.png)
 
 - Stream: 구성된 연결 내에서 전달되는 바이트의 양방향 흐름, 하나 이상의 메시지가 전달 가능하다.
 - Message: 논리적 요청 또는 응답 메시지에 매핑되는 프레임의 전체 시퀀스이다.
@@ -78,7 +78,7 @@ HOLB(Head Of Line Blocking) - 특정 응답 지연
 이 프라임 헤더는 최소한으로 프레임이 속하는 스트림을 식별한다. <br>
 Headers Type Frame, Data Type Frame이 존재한다.
 
-![img_23.png](img_23.png)
+![img_23.png](image/img_23.png)
 
 ## HTTP 3.0
 
@@ -90,7 +90,7 @@ Headers Type Frame, Data Type Frame이 존재한다.
 기본 다중화 및 내장 암호화가 있는 전송계층 프로토콜이다.<br>
 QUIC는 손실 및 느린 연결 대기시간 문제를 완화시키며, 빠른 핸드셰이크 프로세스를 제공한다.
 
-![img_24.png](img_24.png)
+![img_24.png](image/img_24.png)
 
 ## 참고 
 
