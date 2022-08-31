@@ -2,7 +2,7 @@
 
 ---
 
-[웹](https://blog.naver.com/PostView.naver?blogId=y2kdj9723&logNo=222863102805&categoryNo=57&parentCategoryNo=&from=thumbnailList)
+[웹](https://blog.naver.com/y2kdj9723/222863102805)
 
 - 웹사이트 동작 과정
 - URI > URL > HOST, PORT, ...
